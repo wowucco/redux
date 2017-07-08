@@ -1,2 +1,2 @@
-document.getElementById('root').innerHTML = 'Привет, я готов.';
+document.getElementById('root').innerHTML = 'Привет, я готов11.';
 module.hot.accept();

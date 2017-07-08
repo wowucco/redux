@@ -15,5 +15,17 @@ module.exports = {
 		new	webpack.optimize.OccurrenceOrderPlugin(),
 		new	webpack.HotModuleReplacementPlugin(),
 		new	webpack.NoErrorsPlugin()
-	]
+	],
+	/*module:	{	//Обновлено
+		loaders: [	//добавили	babel-loader
+			{
+				loaders: ['babel-loader'],
+				include: [
+					path.resolve(__dirname,	"src"),
+				],
+				test: /\.js$/,
+				plugins: ['transform-runtime'],
+			}
+		]
+	}*/
 }
