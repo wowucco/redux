@@ -1,5 +1,5 @@
-document.getElementById('root').innerHTML = 'Привет, я готов11.';
-module.hot.accept();
+/*document.getElementById('root').innerHTML = 'Привет, я готов11.';
+module.hot.accept();*/
 
 import 'babel-polyfill'
 import React from 'react'
